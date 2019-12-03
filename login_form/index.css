@@ -1,0 +1,81 @@
+
+body{
+
+  color: #fff;
+  background-image: url(index.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#signin{
+  background:#121217da;
+  margin: 100px;
+  /* height: 600px; */
+
+  
+}
+h2{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  margin: 30px;
+}
+#login{
+  margin: 30px;
+  margin-left: 30px;
+}
+#cancel{
+  margin: 30px;
+  margin-left: 30px;
+}
+
+
+#pwd{
+  margin: 70px;
+  margin-left: 40px;
+  
+}
+#gmail{
+   margin: 70px;
+  margin-left: 40px; 
+  
+}
+
+.form-control{
+  
+  width: 80%;
+  text-align: center;
+  background: transparent;
+  border: none;
+  border-bottom:1px solid pink;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  font-weight: 200px;
+  padding: 10px 0;
+  transition: border 0.5s;
+  outline: none;
+  color:#fff
+
+}
+a:hover{
+  text-decoration: none;
+}
+.btn{
+  width:380px;
+}
+/* p.signin_form{
+  float: right;
+  margin: 20px;
+}
+p.forget_pwd{
+  float: left;
+  margin: 20px;
+} */
+
+.buttons {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around
+}
